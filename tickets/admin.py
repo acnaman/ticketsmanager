@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Member
-from .models import Seats
+from .models import Seat
 
 # Register your models here.
 admin.site.register(Member)
-admin.site.register(Seats)
+admin.site.register(Seat)

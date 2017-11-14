@@ -41,7 +41,7 @@ SEATSTATUS_CHOICES = (
     (2, '販売済み'),
 )
 
-class Seats(models.Model):
+class Seat(models.Model):
     #seat_id = models.AutoField()
     status = models.IntegerField(choices=SEATSTATUS_CHOICES)
     owner_member = models.ForeignKey(Member, on_delete=models.CASCADE)
